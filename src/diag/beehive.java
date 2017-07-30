@@ -31,7 +31,7 @@ public class beehive {
 
 	public static void main(String[] args) {
 		final Properties props = new Properties();
-
+        //begin of main
 		props.setProperty("mail.store.protocol", "imaps");
 		props.setProperty("mail.imap.auth.plain.disable", "true");
 		props.setProperty("mail.imaps.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
